@@ -2,6 +2,7 @@ package mc.carlton.freerpg.miscEvents;
 
 import mc.carlton.freerpg.perksAndAbilities.Fishing;
 import mc.carlton.freerpg.playerInfo.AbilityTracker;
+import mc.carlton.freerpg.playerInfo.ChangeStats;
 import org.bukkit.GameMode;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
@@ -31,6 +32,7 @@ public class PlayerFish implements Listener {
         AbilityTracker abilities = new AbilityTracker(p);
         Integer[] pAbilities = abilities.getPlayerAbilities();
 
+        ChangeStats increaseStats = new ChangeStats(p);
 
         if (e.getState() == PlayerFishEvent.State.FISHING) {
             if (pAbilities[4] > -1) {
@@ -51,6 +53,7 @@ public class PlayerFish implements Listener {
         }
         else if (e.getState() == PlayerFishEvent.State.CAUGHT_FISH) {
             Fishing fishingClass = new Fishing(p);
+            increaseStats.changeEXP("fishing", 500);
             if (pAbilities[4] == -2) {
                 fishingClass.superBait(e.getHook(),caughtThing,world);
             }

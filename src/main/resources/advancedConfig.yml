@@ -136,7 +136,7 @@ digging:
     breakClay: 60
     breakFarmland: 20
     breakGrassBlock: 20
-    breakGrassPath: 20
+    breakDirtPath: 20
     breakGravel: 20
     breakMycelium: 22
     breakPodzol: 22
@@ -243,6 +243,27 @@ mining:
     breakCrimson_Nylium: 15
     breakWarped_Nylium: 15
     breakGilded_Blackstone: 500
+    breakCopper_Ore: 300
+    breakDeepslate_Coal_Ore: 200
+    breakDeepslate_Copper_Ore: 300
+    breakDeepslate_Diamond_Ore: 1000
+    breakDeepslate_Emerald_Ore: 1250
+    breakDeepslate_Gold_Ore: 500
+    breakDeepslate_Iron_Ore: 350
+    breakDeepslate_Lapis_Ore: 700
+    breakDeepslate_Redstone_Ore: 500
+    breakDeepslate: 15
+    breakDripstone_Block: 15
+    breakTuff: 15
+    breakPointed_Dripstone: 15
+    breakCalcite: 15
+    breakAmethyst_Block: 15
+    breakAmethyst_Shart: 15
+    breakLarge_Amethyst_Bud: 15
+    breakMedium_Amethyst_Bud: 15
+    breakSmall_Amethyst_Bud: 15
+    breakSmoothBasalt: 15
+
 farming:
   expDrops:
     enableEXPDrops: true
@@ -1045,6 +1066,8 @@ smelting:
     smeltNetherite_Scrap: 350
     smeltCracked_Nether_Bricks: 95
     smeltCracked_Stone_Bricks: 95
+    smeltCopper_Ingot: 100
+    smeltCopper_Block: 100
     smeltAnythingElse: 60
 enchanting:
   gainEXPfromEnchantingBottles: false #Disables gaining FreeRPG EXP from xp bottles and xp boost from xp bottles when set to false

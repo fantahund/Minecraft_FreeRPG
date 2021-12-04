@@ -141,7 +141,9 @@ public class PlayerBlockBreak implements Listener {
             increaseStats.changeEXP("mining", miningEXP.get(blockType));
             Mining miningClass = new Mining(p);
             miningClass.wastelessHaste(blockType);
-            miningClass.miningDoubleDrop(block, world);
+            // deactive for sevenbulletstv
+
+            //miningClass.miningDoubleDrop(block, world);
             miningClass.veinMiner(block,blockType);
             if (pAbilities[2] == -2) {
                 //Treasure Drops:

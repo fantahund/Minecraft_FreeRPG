@@ -122,7 +122,7 @@ digging:
       - [block: CLAY,                       breakExp: 60, natural: true ]
       - [block: FARMLAND ,                  breakExp: 20, natural: true ]
       - [block: GRASS_BLOCK,                breakExp: 20, natural: true ]
-      - [block: GRASS_PATH,                 breakExp: 20, natural: true ]
+      - [block: DIRT_PATH,                  breakExp: 20, natural: true ]
       - [block: MYCELIUM,                   breakExp: 22, natural: true ]
       - [block: PODZOL,                     breakExp: 22, natural: true ]
       - [block: COARSE_DIRT,                breakExp: 22, natural: true ]
@@ -233,6 +233,19 @@ mining:
       - [block: RED_TERRACOTTA,        breakExp: 25,   natural: false]
       - [block: BLACK_TERRACOTTA,      breakExp: 25,   natural: false]
       - [block: TERRACOTTA,            breakExp: 25,   natural: false]
+      - [block: COPPER_ORE,            breakExp: 300,  natural: true ] # 1.17.1
+      - [block: DEEPSLATE_COAL_ORE,    breakExp: 200,  natural: true ]
+      - [block: DEEPSLATE_COPPER_ORE,  breakExp: 300,  natural: true ]
+      - [block: DEEPSLATE_DIAMOND_ORE, breakExp: 1000, natural: true ]
+      - [block: DEEPSLATE_EMERALD_ORE, breakExp: 1250, natural: true ]
+      - [block: DEEPSLATE_GOLD_ORE,    breakExp: 500,  natural: true ]
+      - [block: DEEPSLATE_IRON_ORE,    breakExp: 350,  natural: true ]
+      - [block: DEEPSLATE_LAPIS_ORE,   breakExp: 700,  natural: true ]
+      - [block: DEEPSLATE_REDSTONE_ORE,breakExp: 500,  natural: true ]
+      - [block: DEEPSLATE,             breakExp: 15,   natural: true ]
+      - [block: DRIPSTONE_BLOCK,       breakExp: 15,   natural: true ]
+      - [block: TUFF,                  breakExp: 15,   natural: true ]
+      - [block: POINTED_DRIPSTONE,     breakExp: 15,   natural: true ]
 farming:
   maxLevel: -1 #The maximum level allowed for this skill, set to -1 for no limit
   expMultiplier: 1.0 #Multiplier for all experience drops in this skill, STACKS with global.EXP_Multiplier

@@ -361,12 +361,18 @@ public class Smelting extends Skill{
                 break;
         }
         MinecraftVersion minecraftVersion = new MinecraftVersion();
-        if (minecraftVersion.getMinecraftVersion_Double() >= 1.16 && EXP != expMap.get("smeltAnythingElse")) {
+        if (minecraftVersion.getMinecraftVersion_Double() >= 1.16) {
             if (smeltedMaterial.equals(Material.NETHERITE_SCRAP)) {
                 EXP = expMap.get("smeltNetherite_Scrap");
             }
             if (smeltedMaterial.equals(Material.CRACKED_NETHER_BRICKS)) {
                 EXP = expMap.get("smeltCracked_Nether_Bricks");
+            }
+            if (smeltedMaterial.equals(Material.COPPER_INGOT)) {
+                EXP = expMap.get("smeltCopper_Ingot");
+            }
+            if (smeltedMaterial.equals(Material.COPPER_BLOCK)) {
+                EXP = expMap.get("smeltCopper_Block");
             }
         }
         return EXP;

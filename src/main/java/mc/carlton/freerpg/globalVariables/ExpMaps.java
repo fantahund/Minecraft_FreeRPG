@@ -30,7 +30,7 @@ public class ExpMaps {
         diggingEXP.put(Material.CLAY, expMap.get("breakClay"));
         diggingEXP.put(Material.FARMLAND,expMap.get("breakFarmland"));
         diggingEXP.put(Material.GRASS_BLOCK,expMap.get("breakGrassBlock"));
-        diggingEXP.put(Material.GRASS_PATH,expMap.get("breakGrassPath"));
+        diggingEXP.put(Material.DIRT_PATH,expMap.get("breakDirtPath")); // merken
         diggingEXP.put(Material.GRAVEL,expMap.get("breakGravel"));
         diggingEXP.put(Material.MYCELIUM,expMap.get("breakMycelium"));
         diggingEXP.put(Material.PODZOL,expMap.get("breakPodzol"));
@@ -157,6 +157,28 @@ public class ExpMaps {
             miningEXP.put(Material.CRIMSON_NYLIUM, expMap.get("breakCrimson_Nylium"));
             miningEXP.put(Material.WARPED_NYLIUM, expMap.get("breakWarped_Nylium"));
             miningEXP.put(Material.GILDED_BLACKSTONE, expMap.get("breakGilded_Blackstone"));
+            // 1.17.1 -> add to advanedConfig
+            miningEXP.put(Material.COPPER_ORE, expMap.get("breakCopper_Ore"));
+            miningEXP.put(Material.DEEPSLATE_COAL_ORE, expMap.get("breakDeepslate_Coal_Ore"));
+            miningEXP.put(Material.DEEPSLATE_COPPER_ORE, expMap.get("breakDeepslate_Copper_Ore"));
+            miningEXP.put(Material.DEEPSLATE_DIAMOND_ORE, expMap.get("breakDeepslate_Diamond_Ore"));
+            miningEXP.put(Material.DEEPSLATE_EMERALD_ORE, expMap.get("breakDeepslate_Emerald_Ore"));
+            miningEXP.put(Material.DEEPSLATE_GOLD_ORE, expMap.get("breakDeepslate_Gold_Ore"));
+            miningEXP.put(Material.DEEPSLATE_IRON_ORE, expMap.get("breakDeepslate_Iron_Ore"));
+            miningEXP.put(Material.DEEPSLATE_LAPIS_ORE, expMap.get("breakDeepslate_Lapis_Ore"));
+            miningEXP.put(Material.DEEPSLATE_REDSTONE_ORE, expMap.get("breakDeepslate_Redstone_Ore"));
+
+            miningEXP.put(Material.DEEPSLATE, expMap.get("breakDeepslate"));
+            miningEXP.put(Material.DRIPSTONE_BLOCK, expMap.get("breakDripstone_Block"));
+            miningEXP.put(Material.TUFF, expMap.get("breakTuff"));
+            miningEXP.put(Material.POINTED_DRIPSTONE, expMap.get("breakPointed_Dripstone"));
+            miningEXP.put(Material.CALCITE, expMap.get("breakCalcite"));
+            miningEXP.put(Material.AMETHYST_BLOCK, expMap.get("breakAmethyst_Block"));
+            miningEXP.put(Material.AMETHYST_SHARD, expMap.get("breakAmethyst_Shard"));
+            miningEXP.put(Material.LARGE_AMETHYST_BUD, expMap.get("breakLarge_Amethyst_Bud"));
+            miningEXP.put(Material.MEDIUM_AMETHYST_BUD, expMap.get("breakMedium_Amethyst_Bud"));
+            miningEXP.put(Material.SMALL_AMETHYST_BUD, expMap.get("breakSmall_Amethyst_Bud"));
+            miningEXP.put(Material.SMOOTH_BASALT, expMap.get("breakSmooth_Basalt"));
         }
     }
 
