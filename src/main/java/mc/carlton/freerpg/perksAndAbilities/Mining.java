@@ -499,6 +499,25 @@ public class Mining extends Skill{
                 EXP = expMap.get("breakGilded_Blackstone");
             } else if (brokenOre.equals(Material.NETHER_GOLD_ORE)) {
                 EXP = expMap.get("breakNether_Gold_Ore");
+                // added for 1.18
+            } else if (brokenOre.equals(Material.COPPER_ORE)) {
+                EXP = expMap.get("breakCopper_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_COAL_ORE)) {
+                EXP = expMap.get("breakDeepslate_Coal_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_COPPER_ORE)) {
+                EXP = expMap.get("breakDeepslate_Copper_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_DIAMOND_ORE)) {
+                EXP = expMap.get("breakDeepslate_Diamond_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_EMERALD_ORE)) {
+                EXP = expMap.get("breakDeepslate_Emerald_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_GOLD_ORE)) {
+                EXP = expMap.get("breakDeepslate_Gold_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_IRON_ORE)) {
+                EXP = expMap.get("breakDeepslate_Iron_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_LAPIS_ORE)) {
+                EXP = expMap.get("breakDeepslate_Lapis_Ore");
+            } else if (brokenOre.equals(Material.DEEPSLATE_REDSTONE_ORE)) {
+                EXP = expMap.get("breakDeepslate_Redstone_Ore");
             }
         }
         return EXP;
